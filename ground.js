@@ -3,6 +3,7 @@ class Ground{
     constructor(){
         var ground_options={
             isStatic : true
+            'friction': 0
           }
         
           this.ground = Bodies.rectangle(450,390,900,20,ground_options)
